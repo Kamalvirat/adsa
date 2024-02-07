@@ -1,3 +1,4 @@
+import java.util.*;
 class Node {
     int data;
     Node next;
@@ -79,8 +80,7 @@ class LinkedList {
         return count;
     }
 }
-
-public class Main {
+class Main {
     public static void main(String[] args) {
         LinkedList list = new LinkedList();
         list.insert(1);
